@@ -2,6 +2,10 @@ html{
   scroll-behavior: smooth;
 }
 
+.active {
+    background-color: #2C2F33;
+}
+
 .nav-link {
      font-size: 14px !important;
      background: transparent !important;
@@ -87,3 +91,13 @@ html{
   background-image: linear-gradient(to bottom, #7288da, #7288da);
   text-decoration: none;
 }
+.synx-table {
+    position: absolute;
+    width: 100%;
+    color: white;
+    margin-top: 150px;
+}
+.synx-table {
+    margin-top: 100px;
+}
+
