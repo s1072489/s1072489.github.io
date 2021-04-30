@@ -9,7 +9,7 @@
 }
 
 .styled-table thead tr {
-    background-color: #ba5cc5;
+    background: linear-gradient(145deg, #ba5cc5, #d15697);
     color: #ffffff;
 }
 
@@ -27,6 +27,3 @@
     background-color: #f3f3f3;
 }
 
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #ba5cc5;
-}
