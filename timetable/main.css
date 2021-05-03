@@ -28,5 +28,7 @@
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #ba5cc5;
+    border-bottom-color: #ba5cc5;
+    border-bottom-style: none;
+    border-bottom-width: 2px;
 }
