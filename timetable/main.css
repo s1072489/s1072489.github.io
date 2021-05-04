@@ -1,7 +1,7 @@
 .styled-table {
     border-collapse: collapse;
     margin: 25px 0;
-    font-size: 0.8em;
+    font-size: 0.772em;
     font-family: sans-serif;
     min-width: 400px;
     min-height: 550px;
@@ -30,3 +30,4 @@
 .styled-table tbody tr:last-of-type {
     border-bottom: 2px #ba5cc5;
 }
+
