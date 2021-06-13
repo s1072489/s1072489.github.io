@@ -1,78 +1,50 @@
-* {
-    margin: 0;
-    padding: 0;
-    background-color: #7289DA;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    cursor: default
-}
-    
-h1 {
-    font-size: 10rem;
-    font-family: Roboto, sans-serif;
-    font-weight: 700
-}
-    
-h1,
-h2 {
-    font-family: Roboto, sans-serif;
-    color: #fff;
-    margin-top: 30vh
+body {
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #111;
+  background-color: #fdfdfd;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+  -moz-font-feature-settings: "kern" 1;
+  -o-font-feature-settings: "kern" 1;
+  font-feature-settings: "kern" 1;
+  font-kerning: normal;
+  padding: 30px;
 }
 
-h2 {
-    margin-top: 5px
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5px;
+  }
 }
-    
-.container {
-    width: 23rem;
-    border-bottom: 3px solid #fff;
-    position: relative;
-    margin: 0 auto;
-    padding-bottom: 10px
+
+a {
+  color: #0366d6;
+  text-decoration: none; }
+  a:visited {
+    color: #0366d6; }
+  a:hover {
+    color: #0366d6;
+    text-decoration: underline; }
+
+img {
+  max-width: 100%;
 }
-    
-#star {
-    position: absolute;
-    color: #fff;
-    bottom: 3rem;
-    right: 23rem;
-    margin-bottom: 50px;
-    color: rgba(255, 0, 0, .7);
-    font-size: 7rem;
-    font-family: Roboto, sans-serif;
-    font-weight: 700
-}
-    
-@-webkit-keyframes rotation {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-    
-@keyframes rotation {
-    0% {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-    
-@media (max-width:430px) {
-    #star {
-        right: 2rem
-    }
-    .container {
-        margin: -30px auto
-    }
+
+p {
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #24292e; }
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #24292e; }
+
+a:visited {
+  color: #0366d6; }
+
+h1, h3 {
+  font-weight: 600;
+  border-bottom: 1px solid #eaecef;
+  color: #24292e;
 }
