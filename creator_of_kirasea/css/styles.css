@@ -1,0 +1,25 @@
+header.masthead {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(6rem + 40px);
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+.text-small {
+  font-size: 85%;
+}
+
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
